@@ -37,7 +37,7 @@ let map;
             error: function ajaxError(jqXHR, textStatus, errorThrown) {
                 console.error('Error requesting ride: ', textStatus, ', Details: ', errorThrown);
                 console.error('Response: ', jqXHR.responseText);
-                alert('An error occurred when requesting your unicorn:\n' + jqXHR.responseText);
+                alert('An error occurrexxxxxxxxxxd when requesting your unicorn:\n' + jqXHR.responseText);
             }
         });
     }
